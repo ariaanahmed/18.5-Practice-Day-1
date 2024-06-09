@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+  <section class="container">
+    {% if messages %}
+      {% for msg in messages %}<h6 {% if msg.tags %} class="{{msg.tags}} text-center text-white bg-success py-3 container" {% endif %}>{{msg}}</h6>{% endfor %}
+    {% endif %}
+    <h1>Welcome, {{ user }}</h1>
+
+    <a href="{% url 'pass_change' %}" class="text-capitalize btn btn-danger">Change Password</a>
+    <a href="{% url 'pass_change2' %}" class="text-capitalize btn btn-warning">Change Password without Old Password</a>
+  </section>
+{% endblock %}

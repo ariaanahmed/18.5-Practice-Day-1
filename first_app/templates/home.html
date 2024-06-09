@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="container">
+  {% if messages %}
+    {% for msg in messages %}<h6 {% if msg.tags %} class="{{msg.tags}} text-center text-white bg-danger py-3 container" {% endif %}>{{msg}}</h6>{% endfor %}
+  {% endif %}
+    <h1>Home</h1>
+</section>
+
+{% endblock %}

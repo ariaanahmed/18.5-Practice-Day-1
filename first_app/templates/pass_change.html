@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+  {% if messages %}
+    {% for msg in messages %}<h6 {% if msg.tags %} class="{{msg.tags}} text-center text-white bg-success py-3 container" {% endif %}>{{msg}}</h6>{% endfor %}
+  {% endif %}
+
+  <form novalidate method="POST" class="container border p-4 mt-5">
+    <h5>{{ type }}</h5>
+    {% csrf_token %}
+    <!-- {{form|crispy}} -->
+    {% for fm in form %}
+      {{ fm.label_tag }}
+      {{ fm }}
+      <p class="text-danger fw-bolder">{{ fm.errors|striptags }}</p>
+    {% endfor %}
+    <br />
+    <button class="btn btn-primary w-100 mt-3" type="submit">Change Password</button>
+  </form>
+{% endblock %}
