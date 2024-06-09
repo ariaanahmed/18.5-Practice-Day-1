@@ -1,0 +1,7 @@
+![7](https://github.com/ariaanahmed/18.5-Practice-Day-1/assets/121677432/68d17bf7-8c30-44f0-b0da-7ac0c5bec9c6)
+![6](https://github.com/ariaanahmed/18.5-Practice-Day-1/assets/121677432/ebff3b93-bab0-4daa-a2ae-2ea530f32bc3)
+![5](https://github.com/ariaanahmed/18.5-Practice-Day-1/assets/121677432/cc924075-e848-4c60-ac46-b2022ef6eee3)
+![4](https://github.com/ariaanahmed/18.5-Practice-Day-1/assets/121677432/fc3cfe75-b3ab-40ad-88a4-f7531499425c)
+![3](https://github.com/ariaanahmed/18.5-Practice-Day-1/assets/121677432/8f408ca7-1a31-4c2d-b4a2-c9b35254b1fa)
+![2](https://github.com/ariaanahmed/18.5-Practice-Day-1/assets/121677432/3399013d-9656-4678-94fd-0773f2123df1)
+![1](https://github.com/ariaanahmed/18.5-Practice-Day-1/assets/121677432/f011dece-8b00-4b68-9d8f-6376142d8bf5)
